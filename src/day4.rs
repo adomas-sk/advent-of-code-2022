@@ -46,7 +46,7 @@ pub fn second_task() {
 
     'outer: for number1 in fe_start..(fe_end + 1) {
       for number2 in se_start..(se_end + 1) {
-        if (number1 == number2) {
+        if number1 == number2 {
           score += 1;
           break 'outer;
         }
