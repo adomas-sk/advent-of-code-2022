@@ -3,6 +3,7 @@ mod day2;
 mod day3;
 mod day4;
 mod day5;
+mod day6;
 
 fn main() {
   println!("DAY1 ---");
@@ -24,4 +25,8 @@ fn main() {
   println!("DAY5 ---");
   day5::first_task();
   day5::second_task();
+  println!("");
+  println!("DAY6 ---");
+  day6::first_task();
+  day6::second_task();
 }
